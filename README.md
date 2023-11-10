@@ -4,22 +4,26 @@
 
 ### Installation
 
+#### Vim
+
 ```vim
-Plug 'huyvohcmc/atlas.vim'
+Plug '5ohue/atlasue.vim'
 ```
 
-Then `:PlugInstall`.
+Then run `:PlugInstall`.
+
+#### Neovim (lazy)
+
+```lua
+lazy.setup({
+    {'5ohue/atlasue.vim'}
+})
+```
 
 ### Usage
 
 ```vim
-colorscheme atlas
-```
-
-### Lightline config
-
-```vim
-let g:lightline.colorscheme = 'atlas'
+colorscheme atlasue
 ```
 
 ### Screenshots or it didn't happen
@@ -28,4 +32,4 @@ let g:lightline.colorscheme = 'atlas'
 
 ### Thanks
 
-This colorscheme is a fork of [jacoborus/tender.vim](https://github.com/jacoborus/tender.vim) but without the colors of course.
+This colorscheme is a fork of [huyvohcmc/atlas.vim](https://github.com/huyvohcmc/atlas.vim) which is forked from [jacoborus/tender.vim](https://github.com/jacoborus/tender.vim) but without the colors of course.
