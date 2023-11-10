@@ -6,21 +6,21 @@ endif
 if !exists("termguicolors")
   set termguicolors
 endif
-let g:colors_name="atlas"
+let g:colors_name="atlasue"
 
 
 let Italic = ""
-if exists('g:atlas_italic')
+if exists('g:atlasue_italic')
   let Italic = "italic"
 endif
-let g:atlas_italic = get(g:, 'atlas_italic', 0)
+let g:atlasue_italic = get(g:, 'atlas_italic', 0)
 
 let Bold = ""
-if exists('g:atlas_bold')
+if exists('g:atlasue_bold')
   let Bold = "bold"
 endif
 
-let g:atlas_bold = get(g:, 'atlas_bold', 0)
+let g:atlasue_bold = get(g:, 'atlas_bold', 0)
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#323232 ctermbg=236 gui=NONE cterm=NONE
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#323232 ctermbg=236 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#323232 ctermbg=236 gui=NONE cterm=NONE
@@ -37,7 +37,7 @@ hi FoldColumn guifg=#666666 ctermfg=242 guibg=#1d1d1d ctermbg=234 gui=NONE cterm
 hi SignColumn guifg=#999999 ctermfg=246 guibg=#212121 ctermbg=235 gui=NONE cterm=NONE
 hi IncSearch guifg=#212121 ctermfg=235 guibg=#ffffff ctermbg=15 gui=NONE cterm=NONE
 hi LineNr guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi MatchParen guifg=#f43753 ctermfg=203 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
+hi MatchParen guifg=#57a48d ctermfg=203 guibg=NONE ctermbg=NONE gui=Bold cterm=Bold
 hi NonText guifg=#444444 ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Normal guifg=#c0c0c0 ctermfg=255 guibg=#212121 ctermbg=235 gui=NONE cterm=NONE
 hi PMenu guifg=#212121 ctermfg=235 guibg=#d0d0d0 ctermbg=81 gui=NONE cterm=NONE
